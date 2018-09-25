@@ -1,0 +1,15 @@
+import React, { Component } from "react";
+import Coins from "./Coins.json";
+
+class Coin extends Component {
+  state = {};
+  render() {
+    return (
+      <li>
+        {this.props.name} ${this.props.price}
+      </li>
+    );
+  }
+}
+
+export default Coin;
