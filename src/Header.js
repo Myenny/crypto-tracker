@@ -5,12 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <p class="logo">
-          <img
-            class="header-logo"
-            src="https://pbs.twimg.com/profile_images/431316744355852288/xBvvg4q0_400x400.jpeg"
-          />
-        </p>
+        <p className="logo" />
         <nav>
           <ul>
             <li>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Coins from "./Coins.json";
+import App from "./App.js";
 
 class Coin extends Component {
   state = {};
