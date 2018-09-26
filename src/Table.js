@@ -24,7 +24,12 @@ class Table extends Component {
   render() {
     let coins = this.state.coins.map(coin => {
       return (
-        <Coin key={coin.id} name={coin.name} price={coin.quotes.USD.price} />
+        <Coin
+          key={coin.id}
+          id={coin.id}
+          name={coin.name}
+          price={coin.quotes.USD.price}
+        />
       );
     });
 

@@ -6,6 +6,11 @@ class Coin extends Component {
   render() {
     return (
       <li>
+        <img
+          src={`https://s2.coinmarketcap.com/static/img/coins/16x16/${
+            this.props.id
+          }.png`}
+        />
         {this.props.name} ${this.props.price}
       </li>
     );
