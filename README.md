@@ -4,12 +4,17 @@ Here is the link to my coin tracker: http://my-crypto-api.surge.sh
 
 This app was built as part of my course work for Suncoast Developers Guild. The key objectives for this project were:
 
--To pull the API from coinmarketcap.com and present the current price of the top 100 coins
--Using state in React
--Render data from an API request in React
--Using setInterval to repeat
--Using React the following lifecycle methods: componentDidMount, componentWillUnmount
--Using React Component subclasses
+-To pull the API from coinmarketcap.com and present the current price of the top 100 coins.
+
+-Using state in React.
+
+-Render data from an API request in React.
+
+-Using setInterval to repeat.
+
+-Using React the following lifecycle methods: componentDidMount, componentWillUnmount.
+
+-Using React Component subclasses.
 
 
 Enjoy!
